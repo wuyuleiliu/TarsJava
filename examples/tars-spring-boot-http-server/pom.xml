@@ -32,11 +32,12 @@
     <dependency>
       <groupId>com.tencent.tars</groupId>
       <artifactId>tars-spring-boot-starter</artifactId>
-      <version>1.7.1-SNAPSHOT</version>
+      <version>1.7.1</version>
     </dependency>
   </dependencies>
 
   <build>
+    <finalName>TestApp.HttpTest</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->

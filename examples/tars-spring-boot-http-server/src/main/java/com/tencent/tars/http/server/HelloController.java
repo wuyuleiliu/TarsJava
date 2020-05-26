@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @TarsHttpService("HttpObj")
 @RestController
 public class HelloController {
-    @TarsClient("TestServer.HelloServer.HelloObj")
+    @TarsClient("TestApp.HelloServer.HelloObj")
     HelloPrx helloPrx;
 
     @RequestMapping("/hello")
